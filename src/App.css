@@ -1,38 +1,244 @@
-.App {
-  text-align: center;
+.sectionOne{
+  border: solid 1px;
+  width: 100%;
+  height: 400px;
+  background-image: url("https://cdnb.artstation.com/p/media_assets/images/images/000/883/583/large/you.jpg?1642214396");
+  background-size: cover;
+  background-position: 225px -220px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.titleSectionOne{
+  /* border: solid black 1px; */
+  width: 395px;
+  height: 200px;
+  margin-top: 100px;
+  margin-left: 150px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.titleSectionOne h1{
+  font-size: 40px;
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.titleSectionOne h5{
+  font-weight: lighter;
+  color: rgb(223, 218, 218);
+  line-height: 20px;
+}
+
+.BtnOne{
+  margin-right: 20px;
+  padding: 20px;
+  font-size: 12px;
+  width: 160px;
+  border-radius: 5px;
+  background: linear-gradient(110deg,#6000de 30%,#0ff 80%);
+  color: white;
+  font-weight: 700;
+}
+.BtnOne:hover{
+  background: rgb(9,218,218);
+  background: linear-gradient(90deg, rgba(9,218,218,1) 29%, rgba(12,189,189,1) 97%);
+}
+
+.BtnTwo{
+  padding: 20px;
+  font-size: 12px;
+  width: 160px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+}
+
+.BtnTwo:hover{
+  background-color: #8f8f8f;
+  font-weight: 700;
+  border: none;
+}
+
+
+.btnChangeCarrousel{
+  color: rgb(9,218,218);;
+}
+
+button{
+  border: none;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 15px;
+  cursor: pointer;
+  color: rgb(85, 83, 83);
+  font-weight: 600;
+}
+
+.sectionTwo{
+  background-color: rgb(20, 20, 20);
+  height: 300px;
+  padding: 50px;
+} 
+
+.sectionTree{
+  background-color: rgb(8, 8, 8);
+  height: 300px;
+  padding: 50px;
+}
+
+.positionBtnSection3{
+  margin-left: -15px;
+}
+
+.positionBtnSection4{
+  margin-left: 140px;
+}
+
+a{
+  margin-right: 10px;
+  color: rgb(41, 40, 40);
+}
+
+.carrousel{
+  /* border: solid white 1px; */
+  /* width: 1200px; */
+  display: flex;
+  margin-left: -10px;
+  margin-top: 20px;
+}
+
+.carrousel2{
+  /* border: solid white 1px; */
+  width: 1100px;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+img{
+  width: 164px;
+  height: 240px;
+  margin-right: 20px;
+}
+
+.positionCarrousel{
+  /* border: 1px solid white; */
+  width: 180px;
+  height: 150px;
+  margin-left: 1100px;
+  margin-top: -280px;
+  margin-right: 0px;
+}
+
+.positionCarrousel2{
+  /* border: 1px solid white; */
+  width: 180px;
+  height: 150px;
+  margin-left: -30px;
+  margin-top: -280px;
+  margin-right: 0px;
+}
+
+.buttonCarrousel{
+ border: 1px rgb(88, 86, 86) solid;
+ border-radius: 50%;
+ /* font-size: 18px; */
+ padding: 8px;
+ padding-left: 15px;
+ margin-right: 15px;
+}
+.buttonCarrousel:hover{
+  border: 1px rgb(134, 132, 132) solid;
+}
+
+.buttonCarrousel2{
+  border: 1px rgb(88, 86, 86) solid;
+  border-radius: 50%;
+  /* font-size: 18px; */
+  padding: 8px;
+ padding-left: 15px;
+  margin-right: 15px;
+ }
+ .buttonCarrousel2:hover{
+   border: 1px rgb(134, 132, 132) solid;
+ }
+
+
+.titleCarrousel{
+  color: white;
+  font-size: 20px;
+}
+.titleCarrousel2{
+  color: white;
+  font-size: 20px;
+}
+
+
+
+.hr1{
+  border: 0; 
+  border-top: 1px solid #999; 
+  border-bottom: 1px solid #333; height:0;
+  width: 40px;
+  margin-left: 0px;
+}
+.hr2{
+  border: 0; 
+  border-top: 1px solid #999; 
+  border-bottom: 1px solid #333; height:0;
+  width:170px;
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
+
+.hr12{
+  border: 0; 
+  border-top: 1px solid #999; 
+  border-bottom: 1px solid #333; height:0;
+  width: 40px;
+  margin-left: 0px;
+}
+.hr21{
+  border: 0; 
+  border-top: 1px solid #999; 
+  border-bottom: 1px solid #333; height:0;
+  width:170px;
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
+.smallCarrousel{
+  color: rgb(122, 118, 118);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.smallCarrousel:hover{
+  color:rgb(170, 167, 167) 
+}
+
+.smallCarrousel2:hover{
+  color:rgb(182, 179, 179) 
+}
+.smallCarrousel2{
+  color: rgb(122, 118, 118);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.prueba{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title5{
+  margin-top: -1px;
+  margin-right: 2px;
+  color: rgb(82, 80, 80);
+  font-size: 12px;
+}
+
+.title6{ 
+  color: white;
+  margin-top: -15px;
+  font-weight: 800;
 }
